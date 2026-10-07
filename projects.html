@@ -1,0 +1,105 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPMS · Projects</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">SPMS</a>
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container project-page">
+    <div class="page-intro">
+      <div>
+        <p class="eyebrow">Portfolio</p>
+        <h1>Projects</h1>
+      </div>
+      <a class="button" href="index.html">Back home</a>
+    </div>
+
+    <div class="filter-bar" aria-label="Project filters">
+      <div class="filter-group">
+        <label for="search">Search</label>
+        <input id="search" type="text" class="form-control" placeholder="Search projects...">
+      </div>
+      <div class="filter-group">
+        <label for="status">Status</label>
+        <select id="status" class="form-control">
+          <option>All statuses</option>
+          <option>In progress</option>
+          <option>Proposed</option>
+          <option>Completed</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="project-header">
+          <span class="project-status status-active">In progress</span>
+          <span class="project-tag">Data</span>
+        </div>
+        <h2 class="project-title">Student attendance dashboard</h2>
+        <p class="project-description">Track attendance patterns and identify students who need extra support.</p>
+        <div class="project-meta">
+          <span><strong>Student:</strong> John Mukasa</span>
+          <span><strong>Category:</strong> Data &amp; analytics</span>
+          <span><strong>Supervisor:</strong> Dr. Sarah Namukasa</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
+          <span class="project-status status-proposed">Proposed</span>
+          <span class="project-tag">Business</span>
+        </div>
+        <h2 class="project-title">Small business sales insights</h2>
+        <p class="project-description">Turn monthly sales records into useful charts and reports for local decision-making.</p>
+        <div class="project-meta">
+          <span><strong>Student:</strong> Aisha Nakato</span>
+          <span><strong>Category:</strong> Business intelligence</span>
+          <span><strong>Supervisor:</strong> Mr. Daniel Kato</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
+          <span class="project-status status-completed">Completed</span>
+          <span class="project-tag">Web</span>
+        </div>
+        <h2 class="project-title">Campus event booking system</h2>
+        <p class="project-description">A simple booking portal that helps students reserve rooms and event equipment efficiently.</p>
+        <div class="project-meta">
+          <span><strong>Student:</strong> Peter Lule</span>
+          <span><strong>Category:</strong> Web application</span>
+          <span><strong>Supervisor:</strong> Mrs. Anne Nakitto</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
+          <span class="project-status status-proposed">Proposed</span>
+          <span class="project-tag">Research</span>
+        </div>
+        <h2 class="project-title">Community health awareness portal</h2>
+        <p class="project-description">Share updates, schedules, and health education resources for local community outreach.</p>
+        <div class="project-meta">
+          <span><strong>Student:</strong> Umuhire Josiane</span>
+          <span><strong>Category:</strong> Civic tech</span>
+          <span><strong>Supervisor:</strong> Dr. Diyama</span>
+        </div>
+      </article>
+    </div>
+  </main>
+</body>
+</html>
